@@ -1,0 +1,1 @@
+v0.1.0 added modules (log.sh, bash_profile.sh) and a test file (test.sh)
