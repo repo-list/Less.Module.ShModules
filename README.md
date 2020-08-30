@@ -9,13 +9,17 @@ A simple shell scripting module (Bourne Shell) <br/><br/>
 
 @ ProductName : Less.Module.ShModules <br/>
 
-@ Version : 0.2.0 <br/>
+@ Version : 0.2.1 <br/>
 
 @ License : The MIT License <br/>
 
 # Version History
 
-@ 0.2.0 (2020-08-30, Latest) <br/>
+@ 0.2.1 (2020-08-30, Latest) <br/>
+
+- Minor code amendment <br/>
+
+@ 0.2.0 (2020-08-30) <br/>
 
 - Added modules : modules/user.sh, modules/path.sh <br/>
 - Added function log_set_header and log_set_dir to "modules/log.sh"
