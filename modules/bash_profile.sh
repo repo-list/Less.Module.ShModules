@@ -31,7 +31,7 @@ bash_profile_remove_from_path () {
     fi
 
     # get line numbers
-    __target_lines="$(cat $__file_profile | grep -n 'export PATH' | grep $2 | cut -d ':' -f1)"
+    __target_lines="$(grep -n 'export PATH' $__file_profile | grep $2 | cut -d ':' -f1)"
     # reverse list
     __target_lines="$(echo $__target_lines | awk '{ for (i = NF; i > 0; i--) printf("%s ", $i); }')"
 
