@@ -37,3 +37,15 @@ log_to_file () {
 
     echo "$__LOG_HEADER: $2" >> "$__LOG_DIR_LOGS/$1"
 }
+
+# function log_set_header : Set log header
+# param $1 : header
+log_set_header () {
+    __LOG_HEADER="$1"
+}
+
+# function log_set_dir : Set log directory
+# param $1 : directory
+log_set_dir () {
+    __LOG_DIR_LOGS="$1"
+}
